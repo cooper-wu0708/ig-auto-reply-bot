@@ -25,7 +25,3 @@ def webhook():
         data = request.json
         print("💬 收到留言資料：", data)
         return 'OK', 200
-
-if __name__ == '__main__':
-    print("⚡ Flask 準備啟動囉！")
-    app.run(port=5000)
